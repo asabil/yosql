@@ -1,0 +1,10 @@
+{application, yosql, [
+    {description, "SQL for SQL Lovers"},
+    {vsn, "semver"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []}
+]}.
